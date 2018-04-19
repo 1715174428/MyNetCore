@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mynetcore:
+    image: mynetcore
+    build:
+      context: .
+      dockerfile: MyNetCore/Dockerfile
