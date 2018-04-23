@@ -27,6 +27,7 @@
           "Microsoft.Extensions.Configuration": "2.0.1",
           "Microsoft.NETCore.App": "2.0.0",
           "Model": "1.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.2",
           "Pomelo.EntityFrameworkCore.MySql": "2.0.1"
         },
         "runtime": {

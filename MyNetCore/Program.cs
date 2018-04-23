@@ -20,6 +20,8 @@ namespace MyNetCore
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+            .UseEnvironment("Development")//开发环境
+            //.UseEnvironment("Production")//生产环境
                 .Build();
     }
 }

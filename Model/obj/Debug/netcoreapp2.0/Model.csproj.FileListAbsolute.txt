@@ -6,3 +6,4 @@ D:\Projects\MyNetCore\Model\obj\Debug\netcoreapp2.0\Model.AssemblyInfoInputs.cac
 D:\Projects\MyNetCore\Model\obj\Debug\netcoreapp2.0\Model.AssemblyInfo.cs
 D:\Projects\MyNetCore\Model\obj\Debug\netcoreapp2.0\Model.dll
 D:\Projects\MyNetCore\Model\obj\Debug\netcoreapp2.0\Model.pdb
+D:\Projects\MyNetCore\Model\obj\Debug\netcoreapp2.0\Model.csprojResolveAssemblyReference.cache

@@ -22,6 +22,11 @@ namespace MyNetCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            //注入 TestService  singleton生命能周周期服务在第一次被请求时候创建,后续的每个请求都会使用同一个实例.当需要使用到TestService时候会自动创建
+            services.AddSingleton(typeof (TestService));
+            //(IHostingEnvironment)this.HttpContext.RequestServices.GetService(typeof(IHostingEnvironment));
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -31,6 +36,7 @@ namespace MyNetCore
             {
                 app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
+                app.UseSession();
             }
             else
             {
