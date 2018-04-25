@@ -36,13 +36,16 @@ namespace MyNetCore
             {
                 app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
-                app.UseSession();
+               
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            app.UseSession();
+            app.UseForwardedHeaders(new ForwardedHeadersOptions {
+                ForwardedHeaders=Microsoft.AspNetCore.HttpOverrides.ForwardedHeaders.XForwardedFor|Microsoft.AspNetCore.HttpOverrides.ForwardedHeaders.XForwardedProto
+            });
             app.UseStaticFiles();
 
             app.UseMvc(routes =>

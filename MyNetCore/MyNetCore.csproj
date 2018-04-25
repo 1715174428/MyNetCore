@@ -7,6 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
     <PackageReference Include="microsoft.aspnetcore.http.extensions" Version="2.0.2" />
+    <PackageReference Include="microsoft.aspnetcore.httpoverrides" Version="2.0.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.1" />
     <PackageReference Include="pomelo.entityframeworkcore.mysql" Version="2.0.1" />
   </ItemGroup>

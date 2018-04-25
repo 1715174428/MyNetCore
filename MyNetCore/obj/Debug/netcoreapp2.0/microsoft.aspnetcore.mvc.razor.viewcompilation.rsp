@@ -1,0 +1,12 @@
+D:\Projects\MyNetCore\MyNetCore
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=MyNetCore
+--content-root=D:\Projects\MyNetCore\MyNetCore
+--file=D:\Projects\MyNetCore\MyNetCore\Views\Home\About.cshtml
+--file=D:\Projects\MyNetCore\MyNetCore\Views\Home\Contact.cshtml
+--file=D:\Projects\MyNetCore\MyNetCore\Views\Home\Index.cshtml
+--file=D:\Projects\MyNetCore\MyNetCore\Views\Shared\Error.cshtml
+--file=D:\Projects\MyNetCore\MyNetCore\Views\Shared\_Layout.cshtml
+--file=D:\Projects\MyNetCore\MyNetCore\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\Projects\MyNetCore\MyNetCore\Views\_ViewImports.cshtml
+--file=D:\Projects\MyNetCore\MyNetCore\Views\_ViewStart.cshtml

@@ -1,0 +1,14 @@
+D:\Projects\MyNetCore\MyNetCore\bin\Release\netcoreapp2.0\MyNetCore.deps.json
+D:\Projects\MyNetCore\MyNetCore\bin\Release\netcoreapp2.0\MyNetCore.runtimeconfig.json
+D:\Projects\MyNetCore\MyNetCore\bin\Release\netcoreapp2.0\MyNetCore.runtimeconfig.dev.json
+D:\Projects\MyNetCore\MyNetCore\bin\Release\netcoreapp2.0\MyNetCore.dll
+D:\Projects\MyNetCore\MyNetCore\bin\Release\netcoreapp2.0\MyNetCore.pdb
+D:\Projects\MyNetCore\MyNetCore\bin\Release\netcoreapp2.0\Model.dll
+D:\Projects\MyNetCore\MyNetCore\bin\Release\netcoreapp2.0\Model.pdb
+D:\Projects\MyNetCore\MyNetCore\obj\Release\netcoreapp2.0\MyNetCore.csprojResolveAssemblyReference.cache
+D:\Projects\MyNetCore\MyNetCore\obj\Release\netcoreapp2.0\MyNetCore.csproj.CoreCompileInputs.cache
+D:\Projects\MyNetCore\MyNetCore\obj\Release\netcoreapp2.0\MyNetCore.AssemblyInfoInputs.cache
+D:\Projects\MyNetCore\MyNetCore\obj\Release\netcoreapp2.0\MyNetCore.AssemblyInfo.cs
+D:\Projects\MyNetCore\MyNetCore\obj\Release\netcoreapp2.0\MyNetCore.csproj.CopyComplete
+D:\Projects\MyNetCore\MyNetCore\obj\Release\netcoreapp2.0\MyNetCore.dll
+D:\Projects\MyNetCore\MyNetCore\obj\Release\netcoreapp2.0\MyNetCore.pdb

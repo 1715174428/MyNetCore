@@ -12802,6 +12802,7 @@
       "Microsoft.NETCore.App >= 2.0.0",
       "Model >= 1.0.0",
       "microsoft.aspnetcore.http.extensions >= 2.0.2",
+      "microsoft.aspnetcore.httpoverrides >= 2.0.2",
       "pomelo.entityframeworkcore.mysql >= 2.0.1"
     ]
   },
@@ -12867,6 +12868,10 @@
             "autoReferenced": true
           },
           "microsoft.aspnetcore.http.extensions": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "microsoft.aspnetcore.httpoverrides": {
             "target": "Package",
             "version": "[2.0.2, )"
           },
