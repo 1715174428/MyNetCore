@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Model.Config;
 using System.Reflection;
-
 namespace Model
 {
     public class EfDbContext : DbContext
@@ -10,9 +10,7 @@ namespace Model
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.AddEntityConfigurationFromAssembly(Assembly.Load("Model"));
-            var userBuilder = modelBuilder.Entity<UserInfo>();
-             userBuilder.HasOne(e => e.Role).WithMany().HasForeignKey(i => i.RoleId).IsRequired();
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("Model"));
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

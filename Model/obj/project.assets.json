@@ -702,6 +702,18 @@
           }
         }
       },
+      "RuPeng.EFCore.Ext/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/RuPeng.EFCore.Ext.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/RuPeng.EFCore.Ext.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2807,6 +2819,16 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "RuPeng.EFCore.Ext/1.0.0": {
+      "sha512": "hxxnt/xCNyPhWLnTTI1y8CzJRbYPCkG4OIvA/ovBESXjKNt000GOs/+T1OZUaXQJDsXyxRQaZwjPjPmw9CMeMQ==",
+      "type": "package",
+      "path": "rupeng.efcore.ext/1.0.0",
+      "files": [
+        "lib/netcoreapp2.0/RuPeng.EFCore.Ext.dll",
+        "rupeng.efcore.ext.1.0.0.nupkg.sha512",
+        "rupeng.efcore.ext.nuspec"
       ]
     },
     "System.Buffers/4.3.0": {
@@ -5973,7 +5995,8 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.Extensions.Configuration >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Pomelo.EntityFrameworkCore.MySql >= 2.0.1"
+      "Pomelo.EntityFrameworkCore.MySql >= 2.0.1",
+      "RuPeng.EFCore.Ext >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6033,6 +6056,10 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[2.0.1, )"
+          },
+          "RuPeng.EFCore.Ext": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

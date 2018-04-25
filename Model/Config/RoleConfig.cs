@@ -1,11 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
 
 namespace Model.Config
 {
-    public class RoleConfig : EntityTypeConfiguration<Role>
+    class RoleConfig : BaseConfig, IEntityTypeConfiguration<Role>
     {
-        public override void Map(EntityTypeBuilder<Role> builder)
+        public void Configure(EntityTypeBuilder<Role> builder)
         {
             builder.ToTable("T_Roles");
         }

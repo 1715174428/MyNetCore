@@ -3023,6 +3023,18 @@
           }
         }
       },
+      "RuPeng.EFCore.Ext/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/RuPeng.EFCore.Ext.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/RuPeng.EFCore.Ext.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.7": {
         "type": "package",
         "dependencies": {
@@ -4861,7 +4873,8 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.0.1",
-          "Pomelo.EntityFrameworkCore.MySql": "2.0.1"
+          "Pomelo.EntityFrameworkCore.MySql": "2.0.1",
+          "RuPeng.EFCore.Ext": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Model.dll": {}
@@ -7993,6 +8006,16 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "RuPeng.EFCore.Ext/1.0.0": {
+      "sha512": "hxxnt/xCNyPhWLnTTI1y8CzJRbYPCkG4OIvA/ovBESXjKNt000GOs/+T1OZUaXQJDsXyxRQaZwjPjPmw9CMeMQ==",
+      "type": "package",
+      "path": "rupeng.efcore.ext/1.0.0",
+      "files": [
+        "lib/netcoreapp2.0/RuPeng.EFCore.Ext.dll",
+        "rupeng.efcore.ext.1.0.0.nupkg.sha512",
+        "rupeng.efcore.ext.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.7": {
